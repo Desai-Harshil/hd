@@ -1,0 +1,335 @@
+* {
+  font-family: "Preahvihear";
+
+  margin: 0;
+
+}
+
+#color {
+  color: white;
+}
+
+
+body {
+  background-color: #11071F;
+}
+
+/* HEADER SECTION  */
+.main {
+  background: #1A0B2E;
+}
+
+.header {
+  padding: 16px 0px;
+}
+
+.header-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-in .header-menu a {
+  margin-right: 60px;
+  font-family: "Plus Jakarta Sans";
+  color: white;
+  text-decoration: none;
+  /* font-size: 20px; */
+  font-weight: 600;
+  line-height: 25.22px;
+}
+
+/* Responsive menubar */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#opn-btn {
+  display: none;
+  color: white;
+}
+
+#myNav {
+  background-color: #1A0B2E;
+  opacity: 90%;
+}
+
+/* HERO SECTION  */
+
+
+.hero-section {
+  padding-top: 111px;
+}
+
+.text span {
+  color: #FFB800;
+}
+
+.text {
+  /* left: 5px;
+  top: 70px; */
+  position: relative;
+  margin-top: -60px;
+}
+
+.text #p1 {
+  color: white;
+  top: 132px;
+  left: 236px;
+
+}
+
+.aero {
+  position: absolute;
+  top: -100%;
+  left: -23%;
+}
+
+.cartoon img {
+  top: 260px;
+  filter: drop-shadow(1px 1px 100px #763CAC);
+  top: 265px;
+  left: 250px;
+  color: white;
+}
+
+
+.flex {
+  display: flex;
+  padding-top: 56px;
+}
+
+.code {
+  color: white;
+  padding-top: 85px;
+}
+
+.code #p2 {
+  border-bottom: 1px solid gray;
+  line-height: 10px;
+  width: 23%;
+}
+
+.code #p3 span {
+  color: #FFB800;
+}
+
+.code #p3 {
+  font-size: 56px;
+}
+
+.code #p4 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  opacity: 85%;
+}
+
+.round-cvr {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+}
+
+
+#w100 img {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.gradient {
+  width: 100%;
+}
+
+.gradient #img1 {
+  position: absolute;
+  margin-left: 972px;
+  margin-top: -623px;
+  height: 300px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.gradient #img2 {
+  height: 200px;
+  position: absolute;
+  margin-left: 692px;
+  margin-top: -108px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+#p5 {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+#p6 {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+#p7 {
+  padding-top: 70px;
+  width: 892px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.introduce {
+  padding-top: 78px;
+}
+
+#p8 {
+  color: #FFB800;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+}
+
+#p9 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+
+.gradient3 {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+}
+
+#img3 {
+  height: 700px;
+  width: 625px;
+  margin-left: 50%;
+}
+
+.about-in {
+  padding-top: 78px;
+  position: relative;
+}
+
+#p10 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#p11 {
+  padding-top: 69px;
+}
+
+#p12 {
+  padding-top: 69px;
+}
+
+#p13 {
+  padding-top: 69px;
+}
+
+.education .in {
+  padding-top: 100px;
+}
+
+#p14 {
+  color: #FFB800;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+#p15 {
+  font-family: "Poppins";
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.gradient4 img {
+  width: 370px;
+  height: 416px;
+  position: absolute;
+  z-index: -1;
+}
+
+.round-dot img
+{
+  position: absolute;
+  z-index: -1;
+}
+
+.gradient5 img 
+{
+  position: absolute;
+  z-index: -1;
+  width: 250px;
+  height: 294px;
+}
+
